@@ -60,7 +60,7 @@ class NewsletterLayout extends React.Component {
                   <AuthorCard
                     publishedAt={this.props.frontMatter["Pulished On"]}
                     url={
-                      "https://danielwirtz.com/archive/" +
+                      "https://garotogordo.codes/archive/" +
                       this.props.frontMatter.slug
                     }
                     readingTime={this.props.frontMatter.readingTime.text}

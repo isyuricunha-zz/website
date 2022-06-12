@@ -4,16 +4,16 @@ const description = "Designer, tech enthusiast and entrepreneur of sorts";
 const SEO = {
   title,
   description,
-  canonical: "https://danielwirtz.com",
+  canonical: "https://garotogordo.codes",
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://danielwirtz.com",
+    url: "https://garotogordo.codes",
     title,
     description,
     images: [
       {
-        url: "https://danielwirtz.com/static/images/banner.jpg",
+        url: "https://garotogordo.codes/static/images/banner.jpg",
         alt: title,
         width: 2240,
         height: 1260,

@@ -9,9 +9,9 @@ export default function NotFound() {
       <Center>
         <NextSeo
           title="404 – Daniel Wirtz"
-          canonical="https://danielwirtz.com/404"
+          canonical="https://garotogordo.codes/404"
           openGraph={{
-            url: "https://danielwirtz.com/404",
+            url: "https://garotogordo.codes/404",
             title: "404 – Daniel Wirtz",
           }}
         />
