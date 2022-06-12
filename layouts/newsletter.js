@@ -27,7 +27,7 @@ class NewsletterLayout extends React.Component {
         <>
           <Section>
             <BlogSeo
-              url={`https://danielwirtz/blog/${this.props.frontMatter.Slug}`}
+              url={`https://localhost:3000/blog/${this.props.frontMatter.Slug}`}
               image={
                 this.props.frontMatter["Social Card"][0].thumbnails.large.url
               }
