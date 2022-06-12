@@ -94,7 +94,7 @@ class BlogLayout extends React.Component {
                   <AuthorCard
                     publishedAt={this.props.frontMatter.publishDate}
                     url={
-                      "https://garotogordo.codes/blog/" +
+                      "https://localhost:3000/blog/" +
                       this.props.frontMatter.slug
                     }
                     readingTime={this.props.frontMatter.readingTime.text}

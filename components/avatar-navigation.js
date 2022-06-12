@@ -38,7 +38,7 @@ const AvatarNavigation = () => {
     </Link>
   );
   {
-    /* <Popover
+    <Popover
     >
       <PopoverTrigger>
         <Avatar
@@ -132,7 +132,7 @@ const AvatarNavigation = () => {
           </VStack>
         </PopoverBody>
       </PopoverContent>
-    </Popover> */
+    </Popover>
   }
 };
 

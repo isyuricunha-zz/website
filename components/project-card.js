@@ -5,12 +5,15 @@ import {
   Text,
   useColorModeValue,
   Tag,
+  TagLabel,
+  TagRightIcon,
   Box,
+  AspectRatio,
+  Link,
   Image as ChakraImage,
 } from "@chakra-ui/react";
 import Image from "./image";
 import { usePalette } from "react-palette";
-import Link from "@/components/link";
 
 const ProjectCard = ({ name, description, logo, link, type }) => {
   const { data, loading, error } = usePalette(logo[0].thumbnails.large.url);
@@ -26,13 +29,13 @@ const ProjectCard = ({ name, description, logo, link, type }) => {
   };
 
   return (
-    <Link href={link} unstyled>
+    <Link href={link} isExternal>
       <HStack
         p={4}
-        bg={useColorModeValue("white", "neutralD.100")}
-        rounded="lg"
+        bg={useColorModeValue("white", "gray.800")}
+        rounded="xl"
         borderWidth="1px"
-        borderColor={useColorModeValue("neutral.400", "neutralD.400")}
+        borderColor={useColorModeValue("gray.100", "gray.700")}
         w="100%"
         h="100%"
         textAlign="left"
@@ -40,7 +43,7 @@ const ProjectCard = ({ name, description, logo, link, type }) => {
         spacing={4}
         transition="all 0.25s"
         transition-timing-function="spring(1 100 10 10)"
-        _hover={{ transform: "translateY(-4px)", shadow: "lg" }}
+        _hover={{ transform: "translateY(-4px)", shadow: "sm" }}
       >
         <Box
           rounded="lg"
@@ -81,7 +84,7 @@ const ProjectCard = ({ name, description, logo, link, type }) => {
 
             <Text
               fontSize="sm"
-              color={useColorModeValue("neutral.1000", "neutralD.1000")}
+              color={useColorModeValue("gray.500", "gray.200")}
             >
               {description}
             </Text>

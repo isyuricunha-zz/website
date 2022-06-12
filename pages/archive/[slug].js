@@ -21,7 +21,13 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false,
+    _fallback: false,
+    get fallback() {
+      return this._fallback;
+    },
+    set fallback(value) {
+      this._fallback = value;
+    },
   };
 }
 

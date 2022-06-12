@@ -47,7 +47,7 @@ const Footer = () => {
         display={{ base: "none", md: "flex" }}
         my={8}
       >
-        <FooterLink href="mailto:daniel@garotogordo.codes" name="Contact" />
+        <FooterLink href="mailto:daniel@localhost:3000" name="Contact" />
         {/* <Text
           fontSize="sm"
           color={useColorModeValue("neutral.800", "neutralD.800")}
