@@ -90,7 +90,7 @@ const MobileMenuToggle = ({ mobile }) => {
                   <HStack spacing={2}>
                     <Link
                       href="https://twitter.com/wirtzdan/"
-                      isExternal
+                      isexternal
                       unstyled
                     >
                       <IconButton
@@ -104,7 +104,7 @@ const MobileMenuToggle = ({ mobile }) => {
                     </Link>
                     <Link
                       href="https://www.linkedin.com/in/wirtzdan/"
-                      isExternal
+                      isexternal
                       unstyled
                     >
                       <IconButton
@@ -118,7 +118,7 @@ const MobileMenuToggle = ({ mobile }) => {
                     </Link>
                     <Link
                       href="https://github.com/wirtzdan"
-                      isExternal
+                      isexternal
                       unstyled
                     >
                       <IconButton
@@ -133,7 +133,7 @@ const MobileMenuToggle = ({ mobile }) => {
                     <Link
                       href="https://www.youtube.com/channel/UCje_bQMr6F45x0Auii7IOvA"
                       unstyled
-                      isExternal
+                      isexternal
                     >
                       <IconButton
                         size="sm"
