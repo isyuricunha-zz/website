@@ -19,11 +19,11 @@ const ProjectCard = ({ name, description, logo, link, type }) => {
   const { data, loading, error } = usePalette(logo[0].thumbnails.large.url);
 
   const getTypeColor = (type) => {
-    if (type === "Web App") {
+    if (type === "Web App" || "Aplicativo Web") {
       return "teal";
-    } else if (type === "Extension") {
+    } else if (type === "Extension" || "Exntensão") {
       return "blue";
-    } else if (type === "Community") {
+    } else if (type === "Comunidade" || "Community") {
       return "orange";
     }
   };
