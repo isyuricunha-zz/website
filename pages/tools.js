@@ -28,7 +28,13 @@ import {
   HeartIcon,
 } from "@heroicons/react/solid";
 import sorter from "sort-isostring";
-import { AndroidLogo, AppleLogo, Globe, Monitor } from "phosphor-react";
+import {
+  AndroidLogo,
+  AppleLogo,
+  WindowsLogo,
+  Globe,
+  Monitor,
+} from "phosphor-react";
 import ToolCard from "../components/tool-card";
 import { Chrome } from "react-feather";
 import Hero from "@/components/hero";
@@ -60,8 +66,8 @@ const Tools = ({ tools }) => {
                 mt={2}
               >
                 <HStack spacing={1}>
-                  <Icon as={AppleLogo} weight="fill" />
-                  <Text>Mac</Text>
+                  <Icon as={WindowsLogo} weight="fill" />
+                  <Text>Windows</Text>
                 </HStack>
               </Tab>
               <Tab
@@ -115,7 +121,7 @@ const Tools = ({ tools }) => {
               <TabPanel px={0}>
                 <SimpleGrid columns={[1, 2]} spacing={4} mt={8}>
                   {tools
-                    .filter((t) => t.fields.Platform === "Mac")
+                    .filter((t) => t.fields.Platform === "Mac" || "Windows")
                     .sort((x, y) => sorter(y.fields.ID, x.fields.ID))
                     .map((tool) => (
                       <ToolCard
