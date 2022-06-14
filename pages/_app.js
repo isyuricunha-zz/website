@@ -14,7 +14,7 @@ const App = ({ Component, pageProps }) => {
   return (
     <>
       <ChakraProvider theme={customTheme}>
-        <PlausibleProvider domain="localhost:3000">
+        <PlausibleProvider domain="website-ten-brown.vercel.app">
           <Head>
             <meta
               content="width=device-width, initial-scale=1"

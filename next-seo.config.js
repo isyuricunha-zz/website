@@ -4,16 +4,16 @@ const description = "Designer, tech enthusiast and entrepreneur of sorts";
 const SEO = {
   title,
   description,
-  canonical: "https://localhost:3000",
+  canonical: "https://website-ten-brown.vercel.app",
   openGraph: {
     type: "website",
     locale: "en_IE",
-    url: "https://localhost:3000",
+    url: "https://website-ten-brown.vercel.app",
     title,
     description,
     images: [
       {
-        url: "https://localhost:3000/static/images/banner.jpg",
+        url: "https://website-ten-brown.vercel.app/static/images/banner.jpg",
         alt: title,
         width: 2240,
         height: 1260,

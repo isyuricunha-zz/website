@@ -27,7 +27,7 @@ class NewsletterLayout extends React.Component {
         <>
           <Section>
             <BlogSeo
-              url={`https://localhost:3000/blog/${this.props.frontMatter.Slug}`}
+              url={`https://website-ten-brown.vercel.app/blog/${this.props.frontMatter.Slug}`}
               image={
                 this.props.frontMatter["Social Card"][0].thumbnails.large.url
               }
@@ -60,7 +60,7 @@ class NewsletterLayout extends React.Component {
                   <AuthorCard
                     publishedAt={this.props.frontMatter["Pulished On"]}
                     url={
-                      "https://localhost:3000/archive/" +
+                      "https://website-ten-brown.vercel.app/archive/" +
                       this.props.frontMatter.slug
                     }
                     readingTime={this.props.frontMatter.readingTime.text}

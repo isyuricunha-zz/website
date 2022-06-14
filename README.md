@@ -1,24 +1,24 @@
-# localhost:3000
+# website-ten-brown.vercel.app
 
 Welcome behind the curtain of my personal website/portfolio. Take a look around.
 
 This website is build using [Next.js](https://nextjs.org/) (React Framework), [Chakra UI](https://chakra-ui.com) (Component Library) and [Airtable](https://airtable.com/invite/r/HsvqbADg) as a simple backend. The backend comes into play on the blog, books and tools page.
 
-Read [this article](https://localhost:3000/blog/website-rebuild-nextjs-chakra-ui-airtable) to see how I'm using Airtable as a backend.
+Read [this article](https://website-ten-brown.vercel.app/blog/website-rebuild-nextjs-chakra-ui-airtable) to see how I'm using Airtable as a backend.
 
 I think the most interesting pages to look at are:
 
-- https://localhost:3000/blog
-- https://localhost:3000/books
-- https://localhost:3000/tools
+- https://website-ten-brown.vercel.app/blog
+- https://website-ten-brown.vercel.app/books
+- https://website-ten-brown.vercel.app/tools
 
 ## Get it running locally
 
 To get this website running locally, type this into your terminal:
 
 ```bash
-$ git clone https://github.com/isyuricunha/website localhost:3000
-$ cd localhost:3000
+$ git clone https://github.com/isyuricunha/website website-ten-brown.vercel.app
+$ cd website-ten-brown.vercel.app
 $ yarn
 $ yarn dev
 ```

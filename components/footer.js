@@ -47,7 +47,10 @@ const Footer = () => {
         display={{ base: "none", md: "flex" }}
         my={8}
       >
-        <FooterLink href="mailto:daniel@localhost:3000" name="Contato" />
+        <FooterLink
+          href="mailto:daniel@website-ten-brown.vercel.app"
+          name="Contato"
+        />
         {/* <Text
           fontSize="sm"
           color={useColorModeValue("neutral.800", "neutralD.800")}
