@@ -37,7 +37,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
           onClick={onOpen}
           colorScheme="purple"
         >
-          Subscribe
+          Inscrever-se
         </Button>
       ) : (
         <MobileMenuButton
@@ -59,7 +59,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
             bg={useColorModeValue("white", "neutralD.50")}
           >
             <DrawerCloseButton />
-            <DrawerHeader>Subscribe</DrawerHeader>
+            <DrawerHeader>Inscrever-se</DrawerHeader>
             <DrawerBody pb={4}>
               <SubscribeCard card={false} />
               {/* <VStack align="stretch" spacing={4}>
@@ -97,7 +97,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
                       leftIcon={<RssIcon size={20} />}
                       rounded="lg"
                     >
-                      Subscribe
+                      Inscrever-se
                     </Button>
 
                     <Collapse in={isSuccessful} animateOpacity>

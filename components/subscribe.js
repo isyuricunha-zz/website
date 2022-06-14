@@ -92,7 +92,7 @@ const Subscribe = ({ direction, ...props }) => {
                 rounded="lg"
                 // size={{ base: "md", md: "" }}
               >
-                Subscribe
+                Inscrever-se
               </Button>
             </Stack>
             <Collapse in={errorMessage} animateOpacity w="100%">

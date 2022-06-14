@@ -34,7 +34,7 @@ const About = () => (
       <Section>
         <VStack align="stretch" spacing={4}>
           <Heading as="h3" size="lg">
-            Work
+            Trabalho
           </Heading>
           <Text>
             Two semesters into university I co-founded a company called{" "}

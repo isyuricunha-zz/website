@@ -19,7 +19,7 @@ const NewsletterModal = () => {
   return (
     <>
       <Button onClick={onOpen} colorScheme="blue">
-        Subscribe
+        Inscrever-se
       </Button>
       <Modal
         isOpen={isOpen}
