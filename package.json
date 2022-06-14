@@ -6,7 +6,7 @@
     "@chakra-ui/react": "^1.2.1",
     "@emotion/react": "^11.1.2",
     "@emotion/styled": "^11.0.0",
-    "@heroicons/react": "1.0.0",
+    "@heroicons/react": "^1.0.6",
     "@mailchimp/mailchimp_marketing": "^3.0.75",
     "@next/mdx": "^11.0.1",
     "@radix-ui/colors": "^0.1.7",
