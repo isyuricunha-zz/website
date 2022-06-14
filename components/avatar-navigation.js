@@ -52,7 +52,7 @@ const AvatarNavigation = () => {
           <VStack align="start" spacing={4}>
             <VStack align="left" spacing={1} w="100%" ml={-2}>
               <Text fontSize="sm" fontWeight="500" ml={2}>
-                Projects
+                Projetos
               </Text>
               <Link href="https://chrome.google.com/webstore/detail/roam-highlighter/hponfflfgcjikmehlcdcnpapicnljkkc?hl=en">
                 <HStack
