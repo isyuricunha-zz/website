@@ -107,7 +107,8 @@ const Subscribe = ({ direction, ...props }) => {
             <Collapse in={isSuccessful} animateOpacity w="100%">
               <Alert borderRadius="md" status="success" fontSize="sm">
                 <AlertIcon />
-                Success! Now check your email to confirm your subscription.
+                Sucesso! Agora verifique seu e-mail para confirmar sua
+                inscrição.
               </Alert>
             </Collapse>
           </>
