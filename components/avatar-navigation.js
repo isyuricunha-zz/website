@@ -119,8 +119,8 @@ const AvatarNavigation = () => {
               <Link href="https://github.com/wirtzdan">
                 <Button size="sm">Github</Button>
               </Link>
-              <Link href="mailto:danielwirtzx@gmail.com">
-                <Button size="sm">Contact</Button>
+              <Link href="mailto:isyuricunha@gmail.com">
+                <Button size="sm">Contato</Button>
               </Link>
               <Link>
                 <Button size="sm" isDisabled>
