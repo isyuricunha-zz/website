@@ -33,8 +33,8 @@ export default function Newsletter({ posts }) {
               maxW="lg"
               textAlign="center"
             >
-              Helpful tools, thoughtful articles and other findings from the
-              web. From my desk to yours.
+              Ferramentas úteis, artigos interessantes e outras descobertas da
+              web. Da minha escrivaninha para a sua.
             </Text>
             <SubscribeCard
               image={false}

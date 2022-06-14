@@ -12,7 +12,7 @@ import Subscribe from "@/components/subscribe";
 
 export const SubscribeCard = ({
   title = "From the Desk",
-  description = "Ferramentas úteis, artigos atenciosos e outras descobertas da web. Da minha mesa para a sua.",
+  description = "Ferramentas úteis, artigos interessantes e outras descobertas da web. Da minha escrivaninha para a sua.",
   card = true,
   image = true,
   center = false,
