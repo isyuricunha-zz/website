@@ -31,4 +31,4 @@ Read [License.md](https://github.com/isyuricunha/website/blob/master/license.md)
 
 ## Questions / Feedback
 
-Do you have questions or feedback? Then the reach out to me on [Twitter](https://twitter.com/wirtzdan)
+Do you have questions or feedback? Then the reach out to me on [Twitter](https://twitter.com/isyuricunha)

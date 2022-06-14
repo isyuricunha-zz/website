@@ -33,7 +33,7 @@ const TwitterCard = ({ title, slug }) => {
       <Text>Did you like the article?</Text>
       <Link
         href={`https://twitter.com/intent/tweet?text=${
-          encodeURIComponent(title) + " " + "by @wirtzdan"
+          encodeURIComponent(title) + " " + "by @isyuricunha"
         }&url=${encodeURIComponent(url)}`}
         unstyled
       >

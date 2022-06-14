@@ -21,8 +21,8 @@ const SEO = {
     ],
   },
   twitter: {
-    handle: "@wirtzdan",
-    site: "@wirtzdan",
+    handle: "@isyuricunha",
+    site: "@isyuricunha",
     cardType: "summary_large_image",
   },
 };

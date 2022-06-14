@@ -113,7 +113,7 @@ const AvatarNavigation = () => {
             </VStack>
             <Divider />
             <SimpleGrid columns={2} w="100%" spacing={2}>
-              <Link href="https://twitter.com/wirtzdan">
+              <Link href="https://twitter.com/isyuricunha">
                 <Button size="sm">Twitter</Button>
               </Link>
               <Link href="https://github.com/isyuricunha">
