@@ -129,12 +129,12 @@ const BlogCard = ({
           >
             {new Date() - new Date(publishDate) < 1000 * 60 * 60 * 24 * 7 ? (
               <Tag size="sm" colorScheme="green" mr={1}>
-                New
+                Recente
               </Tag>
             ) : undefined}
             <HStack spacing={1} mr={1}>
               <Icon as={EyeIcon} w={4} h={4} weight="duotone" />
-              <Text>{views} views</Text>
+              <Text>{views} recente</Text>
             </HStack>
             {type === "Video" ? (
               <HStack>

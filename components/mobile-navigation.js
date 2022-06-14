@@ -35,7 +35,7 @@ const MobileNavigation = () => {
     },
     {
       route: `/books`,
-      title: `Books`,
+      title: `Livros`,
     },
   ];
 

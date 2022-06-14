@@ -131,7 +131,7 @@ const Header = () => {
                           size={18}
                           color={useColorModeValue("blue.500", "blue.200")}
                         />
-                        <Text>Books</Text>
+                        <Text>Livros</Text>
                       </HStack>
                     </MenuItem>
                   </Link>

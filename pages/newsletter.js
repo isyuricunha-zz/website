@@ -98,7 +98,7 @@ export default function Newsletter({ posts }) {
               </Box>
             ) : (
               <Button onClick={onOpen} variant="link">
-                ... or see how it looks first
+                ... ou veja primeiro como fica
               </Button>
             )}
           </VStack>
@@ -106,7 +106,7 @@ export default function Newsletter({ posts }) {
           {/* {!posts.length && "No posts found."} */}
           <VStack w="full" spacing={8}>
             <Heading as="h2" size="md">
-              Read past newsletters
+              Leia newsletters anteriores
             </Heading>
             <VStack alignItems="flex-start" spacing={4} w="full">
               {posts
