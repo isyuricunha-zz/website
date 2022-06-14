@@ -89,7 +89,7 @@ const MobileMenuToggle = ({ mobile }) => {
                 <HStack justify="space-between" w="100%">
                   <HStack spacing={2}>
                     <Link
-                      href="https://twitter.com/wirtzdan/"
+                      href="https://twitter.com/isyuricunha/"
                       isexternal
                       unstyled
                     >
@@ -103,7 +103,7 @@ const MobileMenuToggle = ({ mobile }) => {
                       ></IconButton>
                     </Link>
                     <Link
-                      href="https://www.linkedin.com/in/wirtzdan/"
+                      href="https://www.linkedin.com/in/isyuricunha/"
                       isexternal
                       unstyled
                     >
@@ -117,7 +117,7 @@ const MobileMenuToggle = ({ mobile }) => {
                       ></IconButton>
                     </Link>
                     <Link
-                      href="https://github.com/wirtzdan"
+                      href="https://github.com/isyuricunha"
                       isexternal
                       unstyled
                     >

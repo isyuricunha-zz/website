@@ -49,7 +49,7 @@ const About = () => (
             and charming clients (I try my best). The journey of building this
             company from the ground up has been one of the most satisfying
             experiences in my life. Head over to my{" "}
-            <a href="https://www.linkedin.com/in/wirtzdan/"> LinkedIn</a>, if
+            <a href="https://www.linkedin.com/in/isyuricunha/"> LinkedIn</a>, if
             you want to connect with me professionally.
           </Text>
         </VStack>

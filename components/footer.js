@@ -55,7 +55,7 @@ const Footer = () => {
           © {date} Yuri Cunha{" "}
         </Text> */}
         <HStack spacing={4}>
-          <Link href="https://twitter.com/wirtzdan/" isexternal unstyled>
+          <Link href="https://twitter.com/isyuricunha/" isexternal unstyled>
             <IconButton
               size="sm"
               icon={<Icon as={TwitterLogo} weight="fill" />}
@@ -63,7 +63,7 @@ const Footer = () => {
             ></IconButton>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/wirtzdan/"
+            href="https://www.linkedin.com/in/isyuricunha/"
             isexternal
             unstyled
           >
@@ -73,7 +73,7 @@ const Footer = () => {
               color={useColorModeValue("neutral.800", "neutralD.1000")}
             ></IconButton>
           </Link>
-          <Link href="https://github.com/wirtzdan" isexternal unstyled>
+          <Link href="https://github.com/isyuricunha" isexternal unstyled>
             <IconButton
               size="sm"
               icon={<GithubLogo weight="fill" />}

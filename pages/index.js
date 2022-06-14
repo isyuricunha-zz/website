@@ -36,20 +36,20 @@ const Home = ({ projects }) => (
                   Markway
                 </Link>
                 . Também frequento o{" "}
-                <Link variant="text" href="https://twitter.com/wirtzdan">
+                <Link variant="text" href="https://twitter.com/isyuricunha">
                   Twitter
                 </Link>{" "}
                 e o{" "}
                 <Link
                   variant="text"
-                  href="https://www.linkedin.com/in/wirtzdan/"
+                  href="https://www.linkedin.com/in/isyuricunha/"
                 >
                   LinkedIn
                 </Link>
                 , onde aprendo, penso e trabalho em público.
               </Text>
             </VStack>
-            {/* <Link href="https://twitter.com/wirtzdan" unstyled>
+            {/* <Link href="https://twitter.com/isyuricunha" unstyled>
               <Button
                 colorScheme="blue"
                 rounded="lg"
