@@ -2,24 +2,24 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>Blog - Yuri Cunha</title>
-      <link>https://localhost:3000/blog</link>
+      <link>https://website-ten-brown.vercel.app/blog</link>
       <description>Designer, developer and maker of things.</description>
       <language>en</language>
       <lastBuildDate>Sun, 12 Jun 2022 00:00:00 GMT</lastBuildDate>
-      <atom:link href="https://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://website-ten-brown.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://localhost:3000/blog/amanha</guid>
+    <guid>https://website-ten-brown.vercel.app/blog/amanha</guid>
     <title>amanha meio dia</title>
-    <link>https://localhost:3000/blog/amanha</link>
+    <link>https://website-ten-brown.vercel.app/blog/amanha</link>
     <description>summary</description>
     <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://localhost:3000/blog/amanha copy</guid>
+    <guid>https://website-ten-brown.vercel.app/blog/amanha copy</guid>
     <title>amanha meio dia</title>
-    <link>https://localhost:3000/blog/amanha copy</link>
+    <link>https://website-ten-brown.vercel.app/blog/amanha copy</link>
     <description>summary</description>
     <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
   </item>
