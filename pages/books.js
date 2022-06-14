@@ -52,7 +52,7 @@ const Books = ({ books }) => {
               >
                 <HStack spacing={1}>
                   <Icon as={BookOpenIcon} />
-                  <Text>All</Text>
+                  <Text>Todos</Text>
                 </HStack>
               </Tab>
               <Tab
@@ -65,7 +65,7 @@ const Books = ({ books }) => {
               >
                 <HStack spacing={1}>
                   <Icon as={HeartIcon} />
-                  <Text>Favorites</Text>
+                  <Text>Favoritos</Text>
                 </HStack>
               </Tab>
             </TabList>
