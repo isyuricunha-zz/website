@@ -1,4 +1,4 @@
-const title = "Daniel Wirtz";
+const title = "Yuri Cunha";
 const description = "Designer, tech enthusiast and entrepreneur of sorts";
 
 const SEO = {

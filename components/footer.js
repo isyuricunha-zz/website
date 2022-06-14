@@ -52,7 +52,7 @@ const Footer = () => {
           fontSize="sm"
           color={useColorModeValue("neutral.800", "neutralD.800")}
         >
-          © {date} Daniel Wirtz{" "}
+          © {date} Yuri Cunha{" "}
         </Text> */}
         <HStack spacing={4}>
           <Link href="https://twitter.com/wirtzdan/" isexternal unstyled>

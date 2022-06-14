@@ -30,7 +30,7 @@ const AvatarNavigation = () => {
   return (
     <Link href="/">
       <Avatar
-        name="Daniel Wirtz"
+        name="Yuri Cunha"
         size="sm"
         src="/avatar-small.jpg"
         cursor="pointer"
@@ -38,11 +38,10 @@ const AvatarNavigation = () => {
     </Link>
   );
   {
-    <Popover
-    >
+    <Popover>
       <PopoverTrigger>
         <Avatar
-          name="Daniel Wirtz"
+          name="Yuri Cunha"
           size="sm"
           src="/avatar-small.jpg"
           cursor="pointer"
@@ -132,7 +131,7 @@ const AvatarNavigation = () => {
           </VStack>
         </PopoverBody>
       </PopoverContent>
-    </Popover>
+    </Popover>;
   }
 };
 
