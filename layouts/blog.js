@@ -112,7 +112,7 @@ class BlogLayout extends React.Component {
           </Section>
           <Section mt={8}>
             <SubscribeCard
-              title="Subscribe to my newsletter"
+              title="Assine minha newsletter"
               description="Ferramentas úteis, artigos atenciosos e outras descobertas da web. Da minha mesa para a sua."
             />
           </Section>

@@ -25,28 +25,28 @@ const Home = ({ projects }) => (
             <Heading size="xl">Ei, eu sou Yuri 👋</Heading>
             <VStack>
               <Text>
-                I'm a designer, developer and entrepreneur of sorts. Born and
-                raised in Germany and now living in the Netherlands. The focus
-                of my work is the{" "}
+                Sou designer, desenvolvedor e empresário. Nascido e criado na
+                Alemanha e atualmente morando na Holanda. O foco do meu trabalho
+                é a{" "}
                 <Link variant="text" href="https://www.facilitator.school">
-                  Facilitator School
+                  Escola Facilitadora
                 </Link>
-                . In my spare time, I work on{" "}
+                . No meu tempo livre, trabalho na{" "}
                 <Link variant="text" href="https://markway.io">
                   Markway
                 </Link>
-                . I also hang out on{" "}
+                . Também frequento o{" "}
                 <Link variant="text" href="https://twitter.com/wirtzdan">
                   Twitter
                 </Link>{" "}
-                and{" "}
+                e o{" "}
                 <Link
                   variant="text"
                   href="https://www.linkedin.com/in/wirtzdan/"
                 >
                   LinkedIn
                 </Link>
-                , where I learn, think and work in public.
+                , onde aprendo, penso e trabalho em público.
               </Text>
             </VStack>
             {/* <Link href="https://twitter.com/wirtzdan" unstyled>
@@ -64,7 +64,7 @@ const Home = ({ projects }) => (
         </Section>
         <Section>
           <SubscribeCard
-            title="Subscribe to my newsletter"
+            title="Assine minha newsletter"
             description="Ferramentas úteis, artigos atenciosos e outras descobertas da web. Da minha mesa para a sua."
           />
         </Section>
