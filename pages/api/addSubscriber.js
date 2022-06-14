@@ -1,29 +1,40 @@
+import fetch from "isomorphic-unfetch";
+
 export default async (req, res) => {
   const { email } = req.body;
+
+  console.log({ email });
 
   if (!email) {
     return res.status(400).json({ error: "Email is required" });
   }
 
   try {
-    const API_KEY = process.env.BUTTONDOWN_API_KEY;
+    const AUDIENCE_ID = process.env.MAILCHIMP_AUDIENCE_ID;
+    const API_KEY = process.env.MAILCHIMP_API_KEY;
+    const DATACENTER = process.env.MAILCHIMP_API_SERVER;
+    const data = {
+      email_address: email,
+      status: "subscribed",
+    };
+
     const response = await fetch(
-      `https://api.buttondown.email/v1/subscribers`,
+      `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${AUDIENCE_ID}/members`,
+
       {
-        body: JSON.stringify({ email }),
+        body: JSON.stringify(data),
         headers: {
-          Authorization: `Token ${API_KEY}`,
+          Authorization: `apikey ${API_KEY}`,
           "Content-Type": "application/json",
         },
         method: "POST",
       }
     );
 
-    const responseJson = await response.json();
-
     if (response.status >= 400) {
       return res.status(400).json({
-        error: await responseJson[0],
+        error: `There was an error subscribing to the newsletter. 
+        Hit me up peter@peterlunch.com and I'll add you the old fashioned way :(.`,
       });
     }
 
