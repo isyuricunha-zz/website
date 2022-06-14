@@ -27,7 +27,7 @@ const MobileNavigation = () => {
     },
     {
       route: `/about`,
-      title: `About`,
+      title: `Sobre`,
     },
     {
       route: `/blog`,

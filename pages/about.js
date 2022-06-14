@@ -19,7 +19,7 @@ const About = () => (
     <VStack spacing={8}>
       <Section>
         <VStack align="start">
-          <Heading as="h1">About</Heading>
+          <Heading as="h1">Sobre</Heading>
           <Text>
             After school, I studied Media and Communications for Digital
             Business in Aachen, Germany. It was at that time, where I found my
