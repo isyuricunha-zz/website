@@ -69,3 +69,10 @@ yarn-error.log
 # next.js
 /.next/
 /out/
+
+#slug
+slug/
+[slug].js
+
+#archive
+/archive/
