@@ -46,6 +46,7 @@
     "swr": "^1.0.1",
     "timeago.js": "^4.0.2",
     "trim": "^0.0.3",
+    "types": "^0.1.1",
     "use-sound": "^4.0.1"
   },
   "scripts": {
