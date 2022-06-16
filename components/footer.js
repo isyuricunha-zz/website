@@ -84,7 +84,7 @@ const Footer = () => {
             ></IconButton>
           </Link>
           <Link
-            href="https://www.youtube.com/channel/UCje_bQMr6F45x0Auii7IOvA"
+            href="https://www.youtube.com/channel/UCHnkvuxhC6ufNxgIQrQnYSQ"
             unstyled
             isexternal
           >
