@@ -47,7 +47,7 @@ export async function getStaticProps() {
 
   const rss = generateRssIcon(posts);
 
-  fs.writeFileSync("../public/rss.xml", rss);
+  fs.writeFileSync("./public/rss.xml", rss);
 
   return {
     props: {
