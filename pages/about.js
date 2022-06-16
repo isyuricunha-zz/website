@@ -21,13 +21,14 @@ const About = () => (
         <VStack align="start">
           <Heading as="h1">Sobre</Heading>
           <Text>
-            After school, I studied Media and Communications for Digital
-            Business in Aachen, Germany. It was at that time, where I found my
-            passion for Design, Technology and being an Entrepreneur. In my free
-            time, I always liked to follow my curiosity, learn new things and
-            explore the far corners of the internet. In my evenings I like to
-            read books, write articles, code things, play tennis, cook and spend
-            time with my favorite people in life.
+            Depois da escola, estudei Mídia e Comunicação para Negócios Digitais
+            em Aachen, Alemanha. Foi nessa altura que encontrei a minha paixão
+            pelo Design, pela Tecnologia e por ser Empreendedor. No meu tempo
+            livre, sempre gostei de seguir minha curiosidade, aprender coisas
+            novas e explorar os cantos mais distantes da internet. Nas minhas
+            noites eu gosto de ler livros, escrever artigos, codificar coisas,
+            jogar tênis, cozinhar e passar tempo com minhas pessoas favoritas na
+            vida.
           </Text>
         </VStack>
       </Section>
@@ -37,20 +38,21 @@ const About = () => (
             Trabalho
           </Heading>
           <Text>
-            Two semesters into university I co-founded a company called{" "}
-            <a href="https://crisp.studio/">Crisp Studio</a> with my good friend
+            Dois semestres na universidade eu co-fundei uma empresa chamada
+            <a href="https://crisp.studio/">Crisp Studio</a> com meu grande
+            amigo
             <a href="https://www.linkedin.com/in/renenauheimer/">
               {" "}
               René Nauheimer
             </a>
-            . Over time, the company evolved into a small, specialised studio
-            that helps organisations to solve important challenges with Sprints
-            and Workshops. In my role, I'm focused on strategy, healthy growth
-            and charming clients (I try my best). The journey of building this
-            company from the ground up has been one of the most satisfying
-            experiences in my life. Head over to my{" "}
-            <a href="https://www.linkedin.com/in/isyuricunha/"> LinkedIn</a>, if
-            you want to connect with me professionally.
+            . Com o tempo, a empresa evoluiu para um pequeno estúdio
+            especializado que ajuda as organizações a resolver desafios
+            importantes com Sprints e Workshops. Na minha função, estou focado
+            em estratégia, crescimento saudável e clientes encantadores (eu
+            tento o meu melhor). A jornada de construir esta empresa do zero foi
+            uma das experiências mais satisfatórias da minha vida. Vá para o meu{" "}
+            <a href="https://www.linkedin.com/in/isyuricunha/"> LinkedIn</a>, se
+            você quiser se conectar comigo profissionalmente.
           </Text>
         </VStack>
       </Section>
