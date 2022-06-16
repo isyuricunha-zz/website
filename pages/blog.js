@@ -45,9 +45,9 @@ export default function Blog({ posts }) {
 export async function getStaticProps() {
   const posts = await getAllPosts();
 
-  const rss = await generateRssIcon(posts);
+  const rss = generateRssIcon(posts);
 
-  fs.writeFileSync("./public/rss.xml", rss);
+  fs.writeFileSync("../public/rss.xml", rss);
 
   return {
     props: {
