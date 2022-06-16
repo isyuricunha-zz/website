@@ -62,7 +62,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
             <DrawerHeader>Inscrever-se</DrawerHeader>
             <DrawerBody pb={4}>
               <SubscribeCard card={false} />
-              {/* <VStack align="stretch" spacing={4}>
+              <VStack align="stretch" spacing={4}>
                 <Text>
                   Want to stay in loop on new articles and projects? Then drop
                   your email below. Alternatively, you can{" "}
@@ -109,7 +109,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
                     </Collapse>
                   </VStack>
                 </form>
-              </VStack> */}
+              </VStack>
             </DrawerBody>
           </DrawerContent>
         </DrawerOverlay>

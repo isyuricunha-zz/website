@@ -1,10 +1,10 @@
-# website-ten-brown.vercel.app
+# www.website.garotogordo.codes
 
 Welcome behind the curtain of my personal website/portfolio. Take a look around.
 
 This website is build using [Next.js](https://nextjs.org/) (React Framework), [Chakra UI](https://chakra-ui.com) (Component Library) and [Airtable](https://airtable.com/invite/r/HsvqbADg) as a simple backend. The backend comes into play on the blog, books and tools page.
 
-Read [this article](https://website-ten-brown.vercel.app/blog/website-rebuild-nextjs-chakra-ui-airtable) to see how I'm using Airtable as a backend.
+Read [this article](https://www.website.garotogordo.codes/blog/website-rebuild-nextjs-chakra-ui-airtable) to see how I'm using Airtable as a backend.
 
 I think the most interesting pages to look at are:
 
@@ -17,8 +17,8 @@ I think the most interesting pages to look at are:
 To get this website running locally, type this into your terminal:
 
 ```bash
-$ git clone https://github.com/isyuricunha/website website-ten-brown.vercel.app
-$ cd website-ten-brown.vercel.app
+$ git clone https://github.com/isyuricunha/website www.website.garotogordo.codes
+$ cd www.website.garotogordo.codes
 $ yarn
 $ yarn dev
 ```

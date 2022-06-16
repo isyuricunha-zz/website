@@ -9,9 +9,9 @@ export default function NotFound() {
       <Center>
         <NextSeo
           title="404 – Yuri Cunha"
-          canonical="https://website-ten-brown.vercel.app/404"
+          canonical="https://www.website.garotogordo.codes/404"
           openGraph={{
-            url: "https://website-ten-brown.vercel.app/404",
+            url: "https://www.website.garotogordo.codes/404",
             title: "404 – Yuri Cunha",
           }}
         />

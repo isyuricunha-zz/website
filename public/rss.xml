@@ -2,32 +2,32 @@
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>Blog - Yuri Cunha</title>
-      <link>https://website-ten-brown.vercel.app/blog</link>
+      <link>https://www.website.garotogordo.codes/blog</link>
       <description>Designer, developer and maker of things.</description>
       <language>en</language>
       <lastBuildDate>Tue, 14 Jun 2022 21:10:13 GMT</lastBuildDate>
-      <atom:link href="https://website-ten-brown.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://www.website.garotogordo.codes/rss.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://website-ten-brown.vercel.app/blog/amanha-meio</guid>
+    <guid>https://www.website.garotogordo.codes/blog/amanha-meio</guid>
     <title>amanha meio dia</title>
-    <link>https://website-ten-brown.vercel.app/blog/amanha-meio</link>
+    <link>https://www.website.garotogordo.codes/blog/amanha-meio</link>
     <description>summary</description>
     <pubDate>Tue, 14 Jun 2022 21:10:13 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://website-ten-brown.vercel.app/blog/amanha-meio-dia</guid>
+    <guid>https://www.website.garotogordo.codes/blog/amanha-meio-dia</guid>
     <title>amanha meio dia</title>
-    <link>https://website-ten-brown.vercel.app/blog/amanha-meio-dia</link>
+    <link>https://www.website.garotogordo.codes/blog/amanha-meio-dia</link>
     <description>summary</description>
     <pubDate>Sun, 12 Jun 2022 10:46:02 GMT</pubDate>
   </item>
 
   <item>
-    <guid>https://website-ten-brown.vercel.app/blog/amanha</guid>
+    <guid>https://www.website.garotogordo.codes/blog/amanha</guid>
     <title>amanha meio dia</title>
-    <link>https://website-ten-brown.vercel.app/blog/amanha</link>
+    <link>https://www.website.garotogordo.codes/blog/amanha</link>
     <description>summary</description>
     <pubDate>Sun, 12 Jun 2022 09:52:45 GMT</pubDate>
   </item>

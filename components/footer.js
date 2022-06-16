@@ -48,7 +48,7 @@ const Footer = () => {
         my={8}
       >
         <FooterLink
-          href="mailto:daniel@website-ten-brown.vercel.app"
+          href="mailto:daniel@www.website.garotogordo.codes"
           name="Contato"
         />
         {/* <Text
