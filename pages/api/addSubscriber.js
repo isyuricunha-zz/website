@@ -33,8 +33,8 @@ export default async (req, res) => {
 
     if (response.status >= 400) {
       return res.status(400).json({
-        error: `There was an error subscribing to the newsletter. 
-        Hit me up peter@peterlunch.com and I'll add you the old fashioned way :(.`,
+        error: `Houve um erro ao assinar a newsletter.
+         Me chame no isyuricunha@icloud.com e eu te adiciono do jeito antigo :(.`,
       });
     }
 
