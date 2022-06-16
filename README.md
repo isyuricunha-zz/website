@@ -8,9 +8,9 @@ Read [this article](https://website-ten-brown.vercel.app/blog/website-rebuild-ne
 
 I think the most interesting pages to look at are:
 
-- https://website-ten-brown.vercel.app/blog
-- https://website-ten-brown.vercel.app/books
-- https://website-ten-brown.vercel.app/tools
+- https://website.garotogordo.codes/blog
+- https://website.garotogordo.codes/books
+- https://website.garotogordo.codes/tools
 
 ## Get it running locally
 
