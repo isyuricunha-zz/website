@@ -106,7 +106,7 @@ export default function Newsletter({ posts }) {
           {/* {!posts.length && "No posts found."} */}
           <VStack w="full" spacing={8}>
             <Heading as="h2" size="md">
-              Leia newsletters anteriores
+              Leia as newsletters anteriores
             </Heading>
             <VStack alignItems="flex-start" spacing={4} w="full">
               {posts
