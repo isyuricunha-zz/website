@@ -99,7 +99,7 @@ const BookSuggestion = () => {
                     colorScheme="blue"
                     type="submit"
                     w="100%"
-                    isLoading={isSubmitting}
+                    isloading={isSubmitting}
                     leftIcon={<MailIcon size={18} />}
                   >
                     Send suggestion
