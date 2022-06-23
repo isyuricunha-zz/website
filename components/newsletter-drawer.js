@@ -77,7 +77,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
                         type="email"
                         ref={register({ required: true })}
                         isDisabled={isSuccessful}
-                        isLoading={isSubmitSuccessful}
+                        isloading={isSubmitSuccessful}
                         rounded="lg"
                       />
                       <FormHelperText>Send max. once per month</FormHelperText>
@@ -93,7 +93,7 @@ const NewsletterDrawer = ({ mobile, placement }) => {
                       type="submit"
                       w="100%"
                       isDisabled={isSuccessful}
-                      isLoading={isSubmitting}
+                      isloading={isSubmitting}
                       leftIcon={<RssIcon size={20} />}
                       rounded="lg"
                     >
