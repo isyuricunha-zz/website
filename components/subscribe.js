@@ -68,7 +68,7 @@ const Subscribe = ({ direction, ...props }) => {
                   type="email"
                   ref={register({ required: true })}
                   isDisabled={isSuccessful}
-                  isLoading={isSubmitSuccessful}
+                  isloading={isSubmitSuccessful}
                   rounded="lg"
                   w="100%"
                   minW={{ base: "48", md: "64" }}
@@ -87,7 +87,7 @@ const Subscribe = ({ direction, ...props }) => {
                 minW={10}
                 isDisabled={isSuccessful}
                 // isDisabled={!isValid}
-                isLoading={isSubmitting}
+                isloading={isSubmitting}
                 // leftIcon={<RssIcon size={20} />}
                 rounded="lg"
                 // size={{ base: "md", md: "" }}
@@ -107,7 +107,7 @@ const Subscribe = ({ direction, ...props }) => {
             <Collapse in={isSuccessful} animateOpacity w="100%">
               <Alert borderRadius="md" status="success" fontSize="sm">
                 <AlertIcon />
-                Boa! {" "}
+                Boa! <br />
                 Agora você já poderá receber umas novidades interessantes.
               </Alert>
             </Collapse>
