@@ -119,7 +119,7 @@ const AvatarNavigation = () => {
               <Link href="https://github.com/isyuricunha">
                 <Button size="sm">Github</Button>
               </Link>
-              <Link href="mailto:isyuricunha@gmail.com">
+              <Link href="mailto:isisyuricunha@pm.me">
                 <Button size="sm">Contato</Button>
               </Link>
               <Link>
