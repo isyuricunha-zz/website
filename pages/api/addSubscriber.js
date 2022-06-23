@@ -34,7 +34,7 @@ export default async (req, res) => {
     if (response.status >= 400) {
       return res.status(400).json({
         error: `Houve um erro ao assinar a newsletter.
-         Me chame no isyuricunha@icloud.com e eu te adiciono do jeito antigo :(.`,
+         Me chame no isyuricunha@pm.me e eu te adiciono do jeito antigo :(.`,
       });
     }
 
