@@ -134,7 +134,7 @@ const BlogCard = ({
             ) : undefined}
             <HStack spacing={1} mr={1}>
               <Icon as={EyeIcon} w={4} h={4} weight="duotone" />
-              <Text>{views} recente</Text>
+              <Text>{views} visualizações</Text>
             </HStack>
             {type === "Video" ? (
               <HStack>
