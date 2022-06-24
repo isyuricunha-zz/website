@@ -91,7 +91,7 @@ export default function Newsletter({ posts }) {
                     <iframe
                       width="100%"
                       height="100%"
-                      src="https://buttondown.email/fromthedesk/archive/2-digital-christmas-cards-global-shipping-and/?as_embed=true"
+                      // src="https://buttondown.email/fromthedesk/archive/2-digital-christmas-cards-global-shipping-and/?as_embed=true"
                     ></iframe>
                   </Box>
                 </Box>
@@ -103,7 +103,7 @@ export default function Newsletter({ posts }) {
             )}
           </VStack>
 
-          {/* {!posts.length && "No posts found."} */}
+          {!posts.length && "No posts found."}
           <VStack w="full" spacing={8}>
             <Heading as="h2" size="md">
               Leia as newsletters anteriores
